@@ -1,0 +1,31 @@
+Timer.css .clock-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.clock-face {
+  fill: #f0f0f0;
+  stroke: #333;
+  stroke-width: 2;
+}
+
+.clock-hand {
+  stroke: #333;
+  stroke-width: 2;
+}
+
+.seconds-hand {
+  stroke: #ff0000; /* Red color for seconds hand */
+  stroke-width: 2;
+}
+
+.minutes-hand {
+  stroke: #333;
+  stroke-width: 4;
+}
+
+.hours-hand {
+  stroke: #333;
+  stroke-width: 6;
+}

@@ -1,0 +1,90 @@
+/* ClockStyles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray textured background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Container for Timer and Stopwatch */
+.clock-container {
+  display: flex; /* Make child components display side by side */
+  justify-content: space-between; /* Add space between Timer and Stopwatch */
+  flex-wrap: wrap; /* Allow components to wrap to the next line if needed */
+}
+
+/* Timer and Stopwatch container */
+/* Increase the size of Timer and Stopwatch components */
+.clock {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px; /* Increase padding for larger components */
+  margin: 20px; /* Increase the margin to add space between components */
+  width: 450px; /* Increase the width for larger boxes */
+  height: 250px;
+  text-align: center; /* Center text within the box */
+}
+
+/* Timer and Stopwatch titles */
+.clock h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Timer input and buttons */
+.clock label {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.clock input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.clock select {
+  padding: 5px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.clock button {
+  background-color: #78ba3a;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.clock button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+h1 {
+  position: relative;
+  /* font-size: 30px; */
+  margin-top: 0px;
+  left: 400px;
+}
+/* Increase the font size of Timer and Stopwatch time display */
+.clock span.time {
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  margin: 20px 0;
+}
+
+/* Increase the font size of Stopwatch time display */
+.clock.Stopwatch span.time {
+  font-size: 4rem; /* Adjust the font size as needed */
+}

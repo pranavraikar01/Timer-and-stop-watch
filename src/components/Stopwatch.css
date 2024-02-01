@@ -1,0 +1,34 @@
+/* Stopwatch.css */
+
+.stopwatch {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-clock {
+  border: 2px solid #333;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
